@@ -1,0 +1,184 @@
+.quem-somos{
+    padding:56px 8%;
+    background:#F6F1E7;
+}
+
+.quem-container{
+    max-width:1080px;
+    margin:auto;
+}
+
+.quem-container .secao-tag{
+    display:block;
+    text-align:center;
+    color:#7B1F1F;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:2px;
+    font-size:.78rem;
+    margin-bottom:6px;
+    position:relative;
+}
+
+.quem-container .secao-tag::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:1px;
+    background:#C8A14A;
+    margin:10px auto 0;
+}
+
+.quem-container h2{
+    text-align:center;
+    font-size:1.95rem;
+    color:#2C2C2C;
+    max-width:720px;
+    margin:10px auto 32px;
+    line-height:1.18;
+}
+
+/* ====================== */
+/* CONTEÚDO */
+/* ====================== */
+
+.quem-conteudo{
+    display:grid;
+    grid-template-columns:1fr 1.25fr;
+    gap:40px;
+    align-items:center;
+}
+
+/* ====================== */
+/* FOTO */
+/* ====================== */
+
+.quem-foto{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.quem-img{
+    width:100%;
+    max-width:430px;
+    object-fit:cover;
+    border-radius:18px;
+    border:6px solid #F6F4EF;
+    box-shadow:0 18px 42px rgba(0,0,0,.14);
+    transition:.35s;
+}
+
+.quem-img:hover{
+    transform:translateY(-4px);
+    box-shadow:0 24px 48px rgba(0,0,0,.18);
+}
+
+/* ====================== */
+/* TEXTO */
+/* ====================== */
+
+.quem-texto p{
+    margin-bottom:14px;
+    color:#555;
+    line-height:1.65;
+    font-size:.98rem;
+}
+
+.quem-texto p:last-child{
+    margin-bottom:0;
+}
+
+.quem-texto strong{
+    color:#8B1D3A;
+}
+
+/* ====================== */
+/* ESTATÍSTICAS */
+/* ====================== */
+
+.estatisticas{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-top:30px;
+}
+
+.item{
+    background:#FCFAF6;
+    padding:18px;
+    border-radius:16px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.item:hover{
+    transform:translateY(-4px);
+    box-shadow:0 14px 28px rgba(0,0,0,.08);
+}
+
+.item h3{
+    color:#8B1D3A;
+    font-size:1.4rem;
+    margin-bottom:6px;
+    font-weight:700;
+}
+
+.item span{
+    color:#666;
+    font-size:.88rem;
+}
+
+/* ====================== */
+/* RESPONSIVO */
+/* ====================== */
+
+@media(max-width:900px){
+
+.quem-somos{
+    padding:48px 8%;
+}
+
+.quem-conteudo{
+    grid-template-columns:1fr;
+    gap:28px;
+}
+
+.quem-img{
+    max-width:360px;
+}
+
+.estatisticas{
+    grid-template-columns:1fr;
+    gap:14px;
+    margin-top:24px;
+}
+
+.quem-container h2{
+    font-size:1.7rem;
+}
+
+.quem-texto{
+    text-align:center;
+}
+
+.quem-texto p{
+    font-size:.9rem;
+    line-height:1.5;
+}
+
+.item{
+    padding:16px;
+}
+
+.item h3{
+    font-size:1.25rem;
+    font-weight:700;
+}
+
+.item span{
+    font-size:.86rem;
+}
+
+}

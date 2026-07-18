@@ -1,0 +1,133 @@
+.depoimentos {
+    padding: 70px 8%;
+    background: #ffffff;
+}
+
+.depoimentos-container {
+    max-width:1120px;
+    margin:auto;
+    text-align:center;
+}
+
+/* TAG */
+.depoimentos .secao-tag {
+    display:block;
+    color:#7B1F1F;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:.78rem;
+    margin-bottom:6px;
+}
+
+.depoimentos h2 {
+    font-size:2rem;
+    color:#2C2C2C;
+    margin:14px 0 18px;
+    line-height:1.18;
+}
+
+.depoimentos-intro {
+    max-width:660px;
+    margin:0 auto 40px;
+    color:#666;
+    line-height:1.6;
+}
+
+/* SUBTÍTULOS */
+.titulo-subsecao {
+    color:#2C2C2C;
+    font-size:1.4rem;
+    margin:45px 0 28px;
+}
+/* =========================
+   VÍDEOS
+========================= */
+
+.cards-videos {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card-video {
+    background:#F6F1E7;
+    padding:20px;
+    border-radius:18px;
+}
+
+.video-youtube {
+    position:relative;
+    width:100%;
+    aspect-ratio:16/9;
+    overflow:hidden;
+    border-radius:14px;
+}
+
+.video-youtube iframe {
+    width:100%;
+    height:100%;
+    border:0;
+}
+
+/* =========================
+   ESCRITOS
+========================= */
+.cards-escritos {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card-escrito {
+    background:#F6F1E7;
+    padding:25px;
+    border-radius:18px;
+    text-align:left;
+    box-shadow:0 8px 18px rgba(0,0,0,.05);
+}
+
+.card-escrito p {
+    color:#555;
+    line-height:1.6;
+    font-size:.95rem;
+    font-style:italic;
+    margin:18px 0;
+}
+
+.card-escrito h4 {
+    color:#7B1F1F;
+    margin-bottom:5px;
+}
+
+.card-escrito small {
+    color:#777;
+}
+
+/* CATEGORIA */
+.categoria {
+    display:inline-block;
+    background:#7B1F1F;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:24px;
+    font-size:.75rem;
+    font-weight:600;
+}
+
+/* MOBILE */
+@media(max-width:900px){
+    .cards-videos,
+    .cards-escritos {
+        grid-template-columns:1fr;
+    }
+
+    .depoimentos {
+        padding:55px 6%;
+    }
+
+    .depoimentos h2 {
+        font-size:1.7rem;
+    }
+
+}

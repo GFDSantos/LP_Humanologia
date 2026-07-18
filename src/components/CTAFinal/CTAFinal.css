@@ -1,0 +1,131 @@
+.cta-final{
+    padding:60px 8%;
+    background:#F5F5F2;
+}
+
+.cta-container{
+    max-width:760px;
+    margin:auto;
+    text-align:center;
+}
+
+/* ========================= */
+/* TAG */
+/* ========================= */
+
+.cta-tag{
+    display:block;
+    color:#7B1F1F;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:.78rem;
+    margin-bottom:6px;
+    position:relative;
+}
+
+.cta-tag::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:1px;
+    background:#C8A14A;
+    margin:10px auto 0;
+}
+
+/* ========================= */
+/* TÍTULO */
+/* ========================= */
+
+.cta-container h2{
+    font-size:2.05rem;
+    color:#2C2C2C;
+    line-height:1.2;
+    font-weight:700;
+    max-width:700px;
+    margin:18px auto 22px;
+}
+
+/* ========================= */
+/* TEXTOS */
+/* ========================= */
+
+.cta-container p{
+    font-size:1rem;
+    color:#555;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+.cta-container p strong{
+    color:#7B1F1F;
+}
+
+.cta-container p:last-of-type{
+    margin-bottom:0;
+}
+
+/* ========================= */
+/* BOTÃO */
+/* ========================= */
+
+.cta-container a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:340px;
+    max-width:100%;
+    height:60px;
+    margin-top:28px;
+    padding:16px 32px;
+    background:#7B1F1F;
+    color:#ffffff;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.2;
+    transition:.35s;
+    box-shadow:0 12px 28px rgba(123,31,31,.18);
+}
+
+.cta-container a:hover{
+    background:#651818;
+    transform:translateY(-3px);
+    box-shadow:0 18px 36px rgba(123,31,31,.24);
+}
+
+/* ========================= */
+/* TEXTO ABAIXO DO BOTÃO */
+/* ========================= */
+
+.cta-container small{
+    display:block;
+    margin-top:14px;
+    color:#777;
+    font-size:.88rem;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media(max-width:900px){
+
+.cta-final{
+    padding:50px 8%;
+}
+
+.cta-container h2{
+    font-size:1.75rem;
+}
+
+.cta-container p{
+    font-size:.94rem;
+}
+
+.cta-container a{
+    width:100%;
+}
+
+}

@@ -1,0 +1,126 @@
+.header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 8%;
+    background:#ffffff;
+    /* Linha dourada */
+    border-bottom:1px solid #C8A14A;
+    position:sticky;
+    top:0;
+    z-index:999;
+    /* sombra extremamente suave */
+    box-shadow:0 1px 8px rgba(0,0,0,.03);
+}
+.header::after{
+    content:"";
+    position:absolute;
+    left:4%;
+    right:4%;
+    bottom:0;
+
+    height:1px;
+    background:#C8A14A;
+}
+/* ========================= */
+/* LOGO */
+/* ========================= */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo-img{
+    width:205px;
+    max-height:66px;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+/* ========================= */
+/* MENU */
+/* ========================= */
+
+.menu{
+    display:flex;
+    gap:34px;
+    list-style:none;
+}
+
+.menu a{
+    color:#222;
+    text-decoration:none;
+    font-size:.95rem;
+    font-weight:500;
+    transition:.3s;
+}
+
+.menu a:hover{
+    color:#7b1f1f;
+}
+
+/* ========================= */
+/* BOTÃO */
+/* ========================= */
+
+.btn-header{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    background:#075b2e;
+    color:#ffffff;
+    text-decoration:none;
+    padding:11px 22px;
+    border-radius:6px;
+    font-size:.92rem;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-header:hover{
+    background:#054723;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media(max-width:960px){
+
+.header{
+    flex-direction:column;
+    gap:18px;
+    padding:18px 8%;
+}
+
+.logo-img{
+    width:170px;
+}
+
+.menu{
+    gap:18px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.btn-header{
+    width:100%;
+    max-width:260px;
+}
+}
+
+@media(max-width:640px){
+
+.logo-img{
+    width:145px;
+}
+
+.menu{
+    flex-direction:column;
+    gap:12px;
+    align-items:center;
+}
+}

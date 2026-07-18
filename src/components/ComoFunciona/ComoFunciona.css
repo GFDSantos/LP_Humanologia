@@ -1,0 +1,196 @@
+.como-funciona{
+    padding:50px 8%;
+    background:#FAFAFA;
+}
+
+.como-container{
+    max-width:1250px;
+    margin:auto;
+    text-align:center;
+}
+
+.secao-tag{
+    display:block;
+    color:#7B1F1F;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:.82rem;
+    margin-bottom:8px;
+    position:relative;
+}
+
+.como-container .secao-tag::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:1px;
+    background:#C8A14A;
+    margin:10px auto 0;
+}
+
+.como-container h2{
+    font-size:2.2rem;
+    color:#2C2C2C;
+    line-height:1.2;
+    margin-bottom:18px;
+}
+
+.como-intro{
+    max-width:760px;
+    margin:0 auto 36px;
+    color:#666;
+    font-size:1rem;
+    line-height:1.6;
+}
+
+/* ======================= */
+/* FLUXO */
+/* ======================= */
+
+.fluxo{
+    display:flex;
+    align-items:stretch;
+    justify-content:center;
+    gap:18px;
+    margin-bottom:20px;
+}
+
+.card-fluxo{
+    flex:1;
+    background:#F6F1E7;
+    border-radius:18px;
+    padding:28px 24px;
+    box-shadow:0 10px 24px rgba(0,0,0,.05);
+    transition:.35s;
+}
+
+.card-fluxo:hover{
+    transform:translateY(-6px);
+    box-shadow:0 16px 30px rgba(0,0,0,.08);
+}
+
+.numero{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:#8B1D3A;  
+    color:#ffffff;
+    margin:0 auto 18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.15rem;
+    font-weight:700;
+    box-shadow:0 6px 16px rgba(54,93,76,.20);
+}
+
+.card-fluxo h3{
+    color:#2C2C2C;
+    font-size:1.08rem;
+    font-weight:700;
+    margin-bottom:14px;
+    line-height:1.35;
+}
+
+.card-fluxo p{
+    color:#666;
+    font-size:.92rem;
+    line-height:1.65;
+}
+
+.seta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#C8A14A;
+    font-size:2rem;
+    font-weight:700;
+}
+
+/* ======================= */
+/* BLOCO FINAL */
+/* ======================= */
+
+.bloco-destaque{
+    max-width:800px;
+    margin:auto;
+    background:#8B1D3A;
+    color:#ffffff;
+    padding:20px 28px;
+    border-radius:18px;
+}
+
+.bloco-destaque h3{
+    font-size:1.45rem;
+    margin-bottom:6px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.bloco-destaque p{
+    max-width:700px;
+    margin:0 auto 4px;
+    line-height:1.45;
+    font-size:.95rem;
+}
+
+.bloco-destaque p:last-child{
+    margin-bottom:0;
+}
+
+/* ======================= */
+/* RESPONSIVO */
+/* ======================= */
+
+@media(max-width:1100px){
+
+.fluxo{
+    flex-direction:column;
+}
+
+.seta{
+    transform:rotate(90deg);
+    margin:-5px 0;
+}
+
+.card-fluxo{
+    max-width:650px;
+    margin:auto;
+    width:100%;
+}
+
+}
+
+@media(max-width:768px){
+
+.como-funciona{
+    padding:55px 8%;
+}
+
+.como-container h2{
+    font-size:1.8rem;
+}
+
+.como-intro{
+    font-size:.95rem;
+    margin-bottom:40px;
+}
+
+.card-fluxo{
+    padding:24px 20px;
+}
+
+.bloco-destaque{
+    padding:22px 20px;
+}
+
+.bloco-destaque h3{
+    font-size:1.25rem;
+}
+
+.bloco-destaque p{
+    font-size:.92rem;
+}
+
+}

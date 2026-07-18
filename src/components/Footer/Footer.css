@@ -1,0 +1,158 @@
+.footer{
+    background:#2C2C2C;
+    color:#ffffff;
+    padding:70px 8% 38px;
+}
+
+.footer-container{
+    max-width:1050px;
+    margin:auto;
+    text-align:center;
+}
+
+/* ========================= */
+/* TÍTULO */
+/* ========================= */
+
+.footer h2{
+    font-size:1.65rem;
+    line-height:1.2;
+    margin-bottom:10px;
+    font-weight:700;
+    letter-spacing:-0.3px;
+}
+
+/* ========================= */
+/* FRASE */
+/* ========================= */
+
+.footer-frase{
+    color:#d8c5a0;
+    font-size:.95rem;
+    font-style:italic;
+    margin-bottom:30px;
+}
+
+/* ========================= */
+/* CONTATOS */
+/* ========================= */
+
+.footer-contato{
+    display:flex;
+    justify-content:center;
+    gap:26px;
+    flex-wrap:wrap;
+    margin-bottom:28px;
+}
+
+.footer-contato p{
+    color:#DDDDDD;
+    font-size:.88rem;
+}
+
+/* ========================= */
+/* MENU */
+/* ========================= */
+
+.footer-menu{
+    display:flex;
+    justify-content:center;
+    gap:28px;
+    flex-wrap:wrap;
+    margin-bottom:34px;
+}
+
+.footer-menu a{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size:.88rem;
+    transition:.3s;
+}
+
+.footer-menu a:hover{
+    color:#C8A14A;
+}
+
+/* ========================= */
+/* LINHA DOURADA */
+/* ========================= */
+
+.footer-linha{
+    width:90px;
+    height:1px;
+    background:#C8A14A;
+    margin:0 auto 30px;
+}
+
+/* ========================= */
+/* COPYRIGHT */
+/* ========================= */
+
+.copyright{
+    color:#BDBDBD;
+    font-size:.82rem;
+    margin-bottom:10px;
+}
+
+/* ========================= */
+/* DESENVOLVIDO */
+/* ========================= */
+
+.desenvolvido{
+    color:#9A9A9A;
+    font-size:.76rem;
+}
+
+.desenvolvido strong{
+    color:#d7b98c;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media(max-width:768px){
+
+.footer{
+    padding:55px 8% 28px;
+}
+
+.footer h2{
+    font-size:1.45rem;
+}
+
+.footer-frase{
+    font-size:.90rem;
+    margin-bottom:22px;
+}
+
+.footer-contato{
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:24px;
+}
+
+.footer-menu{
+    flex-direction:column;
+    gap:12px;
+    margin-bottom:28px;
+}
+
+.footer-menu a{
+    font-size:.86rem;
+}
+
+.footer-linha{
+    width:70px;
+    margin:0 auto 24px;
+}
+
+.copyright{
+    font-size:.78rem;
+}
+
+.desenvolvido{
+    font-size:.72rem;
+}
+
+}

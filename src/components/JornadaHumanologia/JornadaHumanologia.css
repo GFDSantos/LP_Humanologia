@@ -1,0 +1,181 @@
+/* =========================================
+   JORNADA HUMANOLÓGICA
+========================================= */
+.jornada-humanologia{
+    background:#F4EADB;
+    padding:56px 20px;
+}
+
+.jornada-humanologia .jornada-container{
+    max-width:1100px;
+    margin:0 auto;
+    text-align:center;
+}
+/* =========================================
+   TAG
+========================================= */
+.jornada-humanologia .secao-tag{
+    display:inline-block;
+    font-size:.85rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#8A6A45;
+    margin-bottom:14px;
+}
+/* =========================================
+   TÍTULO
+========================================= */
+.jornada-humanologia h2{
+    font-size:2.3rem;
+    font-weight:600;
+    color:#3C3026;
+    margin-bottom:22px;
+    line-height:1.2;
+}
+/* =========================================
+   INTRODUÇÃO
+========================================= */
+.jornada-humanologia .intro{
+    max-width:850px;
+    margin:0 auto 10px;
+    font-size:1.02rem;
+    line-height:1.55;
+    color:#55483C;
+}
+/* =========================================
+   LINHA
+========================================= */
+.jornada-humanologia .linha{
+    width:100%;
+    height:1px;
+    background:rgba(90,70,45,.25);
+    margin:34px auto;
+}
+/* =========================================
+   FLUXO
+========================================= */
+.jornada-humanologia .fluxo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+/* =========================================
+   ETAPAS
+========================================= */
+.jornada-humanologia .etapa{
+    background:rgba(255,255,255,.65);
+    border-radius:16px;
+    padding:22px;
+    max-width:650px;
+    width:100%;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+.jornada-humanologia .numero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:42px;
+    height:42px;
+    margin:0 auto 12px;
+    border-radius:50%;
+    background:#8A6A45;
+    color:#fff;
+    font-weight:700;
+}
+
+.jornada-humanologia h3{
+    color:#3C3026;
+    font-size:1.28rem;
+    margin-bottom:10px;
+}
+
+.jornada-humanologia p{
+    color:#55483C;
+    line-height:1.55;
+    margin-bottom:0;
+}
+/* =========================================
+   SETAS
+========================================= */
+.jornada-humanologia .seta{
+    font-size:2rem;
+    color:#8A6A45;
+    margin:14px 0;
+}
+/* =========================================
+   BIFURCAÇÃO
+========================================= */
+.jornada-humanologia .bifurcacao{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    width:100%;
+    max-width:850px;
+    margin:18px 0;
+}
+.jornada-humanologia .caminho{
+    background:rgba(255,255,255,.75);
+    padding:20px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+/* =========================================
+   FORMAÇÃO
+========================================= */
+.jornada-humanologia .formacao{
+    max-width:800px;
+    margin:42px auto 0;
+    padding:24px;
+    background:#FFF;
+    border-radius:20px;
+    border-left:5px solid #8A6A45;
+}
+.jornada-humanologia .formacao h3{
+    font-size:1.45rem;
+    margin-bottom:12px;
+}
+/* =========================================
+   RESPONSIVO
+========================================= */
+@media(max-width:768px){
+.jornada-humanologia{
+    padding:46px 15px;
+}
+
+.jornada-humanologia h2{
+    font-size:1.8rem;
+    margin-bottom:18px;
+}
+
+.jornada-humanologia .intro{
+    font-size:.96rem;
+    line-height:1.5;
+}
+
+.jornada-humanologia .linha{
+    margin:26px auto;
+}
+
+.jornada-humanologia .etapa{
+    padding:18px;
+}
+
+.jornada-humanologia .seta{
+    margin:12px 0;
+}
+
+.jornada-humanologia .bifurcacao{
+    grid-template-columns:1fr;
+    gap:14px;
+}
+
+.jornada-humanologia .caminho{
+    padding:18px;
+}
+
+.jornada-humanologia .formacao{
+    padding:20px;
+    margin-top:32px;
+}
+
+}

@@ -1,0 +1,205 @@
+.primeira-leitura{
+    padding:36px 8%;
+    background:#F7F3EB;
+}
+
+.primeira-container{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+/* ========================= */
+/* TÍTULO DA SEÇÃO */
+/* ========================= */
+
+.primeira-container .secao-tag{
+    display:block;
+    position:relative;
+    text-align:center;
+    color:#7B1F1F;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:2px;
+    font-size:.78rem;
+    margin-bottom:22px;
+}
+
+.primeira-container .secao-tag::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:1px;
+    background:#C8A14A;
+    margin:10px auto 0;
+}
+
+.primeira-container h2{
+    font-size:2.15rem;
+    margin:10px auto 12px;
+    color:#222;
+    max-width:760px;
+    line-height:1.2;
+}
+
+.introducao{
+    max-width:680px;
+    margin:0 auto 18px;
+    color:#666;
+    font-size:.98rem;
+    line-height:1.55;
+}
+
+.card-leitura{
+    background:#ffffff;
+    padding:24px 28px;
+    border-radius:18px;
+    box-shadow:0 14px 32px rgba(0,0,0,.08);
+    text-align:left;
+}
+
+.card-leitura h3{
+    text-align:center;
+    font-size:1.45rem;
+    margin-bottom:16px;
+    color:#222;
+}
+
+/* ========================= */
+/* LISTA EM DUAS COLUNAS */
+/* ========================= */
+
+.lista-beneficios{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+    margin-bottom:18px;
+}
+
+.lista-beneficios ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.lista-beneficios li{
+    font-size:.92rem;
+    color:#555;
+    line-height:1.45;
+    margin-bottom:8px;
+}
+
+.texto-final{
+    max-width:640px;
+    margin:8px auto 22px;
+    text-align:center;
+    line-height:1.55;
+    color:#555;
+}
+
+.texto-final strong{
+    display:block;
+    margin-bottom:6px;
+    font-size:1.05rem;
+    color:#222;
+}
+
+/* ========================= */
+/* CAIXAS */
+/* ========================= */
+
+.informacoes{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.informacoes div{
+    flex:1;
+    background:#F6F1E7;
+    padding:14px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.informacoes strong{
+    display:block;
+    color:#7B1F1F;
+    font-size:1.12rem;
+    margin-bottom:4px;
+}
+
+.informacoes span{
+    color:#666;
+    font-size:.82rem;
+}
+
+/* ========================= */
+/* BOTÃO */
+/* ========================= */
+
+.btn-primeira{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:320px;
+    max-width:100%;
+    height:60px;
+    margin:0 auto;
+    padding:16px 36px;
+    background:#7B1F1F;
+    color:#ffffff;
+    text-decoration:none;
+    text-align:center;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    line-height:1.2;
+    box-shadow:0 12px 28px rgba(123,31,31,.18);
+    transition:.35s;
+}
+
+.btn-primeira:hover{
+    background:#651818;
+    transform:translateY(-3px);
+    box-shadow:0 18px 36px rgba(123,31,31,.22);
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media(max-width:900px){
+
+.primeira-leitura{
+    padding:32px 8%;
+}
+
+.card-leitura{
+    padding:22px;
+}
+
+.primeira-container h2{
+    font-size:1.9rem;
+}
+
+.introducao{
+    font-size:.92rem;
+    margin-bottom:16px;
+}
+
+.informacoes{
+    flex-direction:column;
+    gap:10px;
+}
+
+.btn-primeira{
+    width:100%;
+}
+
+.lista-beneficios{
+    grid-template-columns:1fr;
+    gap:6px;
+}
+}
