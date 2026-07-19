@@ -23,18 +23,29 @@ function BlocoAcolhimento() {
         </h2>
 
         <p className="texto-principal">
-          Toda história humana começa nas primeiras relações da vida.
+          Toda história começa nas primeiras relações da vida.
           É nesse primeiro ambiente <br />
           que aprendemos a amar, confiar, sentir medo,
           nos proteger e encontrar o nosso lugar.
 
           <br /><br />
 
-          Com o passar dos anos, essa história continua sendo escrita através das
-          relações, das escolhas, <br />
-          do corpo, do trabalho, da espiritualidade e da
-          forma como vivemos.
-
+        <p className="texto-principal">
+            Com o passar dos anos,
+            essa história continua sendo escrita.
+            <br /><br />
+            Nas relações.
+            <br />
+            Nas escolhas.
+            <br />
+            No corpo.
+            <br />
+            No trabalho.
+            <br />
+            Na espiritualidade.
+            <br />
+            E na forma como vivemos.
+          </p>
           <br /><br />
 
           É por isso que nenhuma história pode ser compreendida olhando apenas para
@@ -89,11 +100,7 @@ function BlocoAcolhimento() {
             <h3>Vida Financeira</h3>
 
             <p>
-              Dificuldades financeiras,
-              bloqueios
-              <br />
-              ou insegurança
-              em relação ao futuro.
+              Quando a prosperidade parece sempre distante.
             </p>
           </div>
 

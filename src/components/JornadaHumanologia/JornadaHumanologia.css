@@ -95,14 +95,6 @@
     margin-bottom:0;
 }
 /* =========================================
-   SETAS
-========================================= */
-.jornada-humanologia .seta{
-    font-size:2rem;
-    color:#8A6A45;
-    margin:14px 0;
-}
-/* =========================================
    BIFURCAÇÃO
 ========================================= */
 .jornada-humanologia .bifurcacao{
@@ -158,10 +150,6 @@
 
 .jornada-humanologia .etapa{
     padding:18px;
-}
-
-.jornada-humanologia .seta{
-    margin:12px 0;
 }
 
 .jornada-humanologia .bifurcacao{

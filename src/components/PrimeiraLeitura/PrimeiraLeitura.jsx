@@ -10,9 +10,7 @@ function PrimeiraLeitura() {
         </span>
 
         <h2>
-          Antes de qualquer processo,
-          queremos compreender o momento
-          que você está vivendo.
+          Antes de qualquer decisão, queremos compreender o momento que você está vivendo.
         </h2>
 
         <p className="introducao">
@@ -27,13 +25,13 @@ function PrimeiraLeitura() {
           </h3>
         <div className="lista-beneficios">
         <ul>
-          <li>✔ Uma leitura inicial do seu momento pessoal.</li>
-          <li>✔ Os principais padrões identificados.</li>
-          <li>✔ Os aspectos que merecem atenção.</li>
+          <li>✔ Uma primeira compreensão do momento que você está vivendo.</li>
+          <li>✔ Os principais padrões que aparecem na sua história.</li>
+          <li>✔ Os aspectos da sua história que merecem ser compreendidos com mais profundidade.</li>
         </ul>
         <ul>
           <li>✔ A indicação do caminho mais adequado.</li>
-          <li>✔ Atendimento individual.</li>
+          <li>✔ Um olhar individual para a sua história.</li>
           <li>✔ Sem julgamentos.</li>
         </ul>
 

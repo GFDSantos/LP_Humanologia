@@ -55,7 +55,7 @@ function ComoFunciona() {
             </div>
 
             <h3>
-              Análise Personalizada
+              Leitura Personalizada
             </h3>
 
             <p>
@@ -77,7 +77,7 @@ function ComoFunciona() {
             </div>
 
             <h3>
-              Conversa de Direcionamento
+              Sessão de Clareza
             </h3>
 
             <p>
@@ -99,13 +99,11 @@ function ComoFunciona() {
             </div>
 
             <h3>
-              Próximos Passos
+              Recomendação Personalizada
             </h3>
 
             <p>
-              Se fizer sentido para você, apresentaremos o processo
-              que acreditamos ser o mais adequado para ajudar você
-              a viver a vida que só você pode viver.
+              Ao final da Primeira Leitura, indicaremos o caminho que acreditamos fazer mais sentido para você. Em alguns casos, uma Sessão de Cuidado é suficiente. Em outros, recomendamos a Travessia.
             </p>
 
           </div>
@@ -115,7 +113,9 @@ function ComoFunciona() {
         <div className="bloco-destaque">
 
           <h3>
-            Nenhuma história é igual à outra.
+            Não existe um caminho certo para todas as pessoas.
+            <br />
+            Existe o caminho que faz sentido para a sua história.
           </h3>
 
           <p>

@@ -11,8 +11,9 @@ function CTAFinal() {
                 </span>
 
                 <h2>
-                    Sua história não precisa continuar
-                    sendo escrita pelos mesmos padrões.
+                    Você não pode mudar o que viveu.
+                <br />
+                    Mas pode mudar a forma como sua história continua.
                 </h2>
 
                 <p>
@@ -41,7 +42,8 @@ function CTAFinal() {
                 </a>
 
                 <small>
-                    Gratuita • Leva apenas 3 minutos
+                      Reserve apenas 3 minutos para contar
+                      um pouco da sua história.
                 </small>
 
             </div>

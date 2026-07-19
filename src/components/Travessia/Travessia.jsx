@@ -19,8 +19,7 @@ function Travessia() {
         <div className="travessia-texto">
 
           <p>
-            Em alguns momentos da vida, somos convidados
-            a atravessar uma encruzilhada.
+            Há momentos em que a vida nos coloca diante de uma encruzilhada.
           </p>
 
           <p>
@@ -72,8 +71,7 @@ function Travessia() {
         <div className="travessia-texto">
 
           <p>
-            Cada encontro é construído de acordo
-            com a sua história.
+            Cada encontro respeita a sua história e o momento que você está vivendo.
           </p>
 
           <p>
@@ -81,10 +79,7 @@ function Travessia() {
           </p>
 
           <p>
-            Integramos diferentes formas de compreender
-            o ser humano para construir, junto com você,
-            um caminho que faça sentido para este momento
-            da sua vida.
+            Integramos diferentes formas de compreender o ser humano para ajudar você a encontrar um caminho que faça sentido para este momento da sua vida.
           </p>
 
         </div>

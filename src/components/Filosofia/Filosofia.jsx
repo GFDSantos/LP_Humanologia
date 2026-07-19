@@ -13,7 +13,7 @@ function Filosofia() {
         </h2>
 
         <p className="filosofia-intro">
-          A família é o primeiro lugar onde aprendemos essa linguagem.
+          A família é o primeiro lugar onde aprendemos a linguagem da vida.
         </p>
 
         <div className="linha"></div>

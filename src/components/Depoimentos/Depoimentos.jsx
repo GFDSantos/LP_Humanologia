@@ -30,7 +30,6 @@ function Depoimentos() {
             texto:
                 "Eu achei que o problema era meu casamento. Descobri que era algo que vinha de muito antes. Quando entendi isso, tudo mudou.",
             nome: "Maria R.",
-            local: "São Paulo, SP"
         },
 
         {
@@ -38,7 +37,6 @@ function Depoimentos() {
             texto:
                 "Sempre que eu chegava perto de um certo nível financeiro, algo acontecia. Nunca tinha entendido por quê. Agora entendo.",
             nome: "Carlos M.",
-            local: "Belo Horizonte, MG"
         },
 
         {
@@ -46,7 +44,6 @@ function Depoimentos() {
             texto:
                 "Tratei por anos. Melhorava e voltava. Quando fui às origens do que meu corpo estava dizendo, o processo foi diferente.",
             nome: "Ana L.",
-            local: "Rio de Janeiro, RJ"
         },
 
         {
@@ -54,7 +51,6 @@ function Depoimentos() {
             texto:
                 "Eu não sabia nem nomear o que sentia. Sabia só que estava errado. A leitura me deu palavras para o que eu vivia há anos.",
             nome: "Patrícia S.",
-            local: "Guararema, SP"
         },
 
         {
@@ -62,15 +58,13 @@ function Depoimentos() {
             texto:
                 "Achei que o problema era minha família. Aprendi que tinha muito meu ali dentro. Isso foi difícil e libertador ao mesmo tempo.",
             nome: "Fernando T.",
-            local: "Campinas, SP"
         },
 
         {
             assunto: "Relacionamento que não evoluía",
             texto:
-                "Cada relacionamento terminava igual. Depois da Leitura da Alma, entendi o que eu precisava mudar em mim — não no outro.",
+                "Cada relacionamento terminava igual. Depois da Leitura, entendi o que eu precisava mudar em mim — não no outro.",
             nome: "Juliana C.",
-            local: "Santos, SP"
         }
     ];
 
@@ -91,8 +85,8 @@ function Depoimentos() {
                 </h2>
 
                 <p className="depoimentos-intro">
-                    Cada pessoa chega vivendo uma realidade diferente.
-                    O que elas têm em comum é a decisão de começar.
+                    Nenhuma história é igual à outra. Todas começaram quando alguém decidiu compreender <br />a própria história.
+
                 </p>
 
                 {/* ===========================

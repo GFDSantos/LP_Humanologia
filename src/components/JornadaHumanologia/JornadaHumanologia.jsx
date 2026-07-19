@@ -3,9 +3,7 @@ import "./JornadaHumanologia.css";
 function JornadaHumanologia() {
   return (
     <section className="jornada-humanologia">
-
       <div className="jornada-container">
-
         <span className="secao-tag">
           A Jornada Humanologia
         </span>
@@ -25,19 +23,16 @@ function JornadaHumanologia() {
 
         <p className="intro">
           A Primeira Leitura é o ponto de partida. A partir dela,
-          compreendemos o momento que você está vivendo e indicamos
+          compreendemos o momento que você está vivendo <br />e indicamos
           o caminho que acreditamos fazer mais sentido para a sua história.
         </p>
 
 
         <div className="linha"></div>
 
-
         <div className="fluxo">
 
-
           <div className="etapa">
-
             <span className="numero">
               1
             </span>
@@ -50,14 +45,7 @@ function JornadaHumanologia() {
               Um primeiro olhar para compreender sua história
               e o momento que você está vivendo.
             </p>
-
           </div>
-
-
-          <div className="seta">
-            ↓
-          </div>
-
 
           <div className="etapa">
 
@@ -74,12 +62,6 @@ function JornadaHumanologia() {
               responder suas dúvidas e indicar o caminho mais adequado
               para você.
             </p>
-
-          </div>
-
-
-          <div className="seta">
-            ↓
           </div>
 
 
@@ -87,14 +69,12 @@ function JornadaHumanologia() {
             A partir daqui, cada história segue um caminho diferente.
           </p>
 
-
           <div className="bifurcacao">
-
 
             <div className="caminho">
 
               <h3>
-                Sessão de Cuidado
+                Sessão Individual
               </h3>
 
               <p>
@@ -103,7 +83,6 @@ function JornadaHumanologia() {
               </p>
 
             </div>
-
 
             <div className="caminho">
 
@@ -116,15 +95,8 @@ function JornadaHumanologia() {
                 está vivendo uma encruzilhada e deseja reorganizar
                 sua vida com clareza, direção e acompanhamento.
               </p>
-
             </div>
 
-
-          </div>
-
-
-          <div className="seta">
-            ↓
           </div>
 
 
@@ -142,12 +114,6 @@ function JornadaHumanologia() {
 
           </div>
 
-
-          <div className="seta">
-            ↓
-          </div>
-
-
           <div className="etapa">
 
             <h3>
@@ -159,26 +125,20 @@ function JornadaHumanologia() {
               a experiência e fortalecer os vínculos
               da comunidade.
             </p>
-
           </div>
-
 
         </div>
 
-
         <div className="formacao">
-
 
           <h3>
             Para algumas pessoas…
           </h3>
 
-
           <p>
             Durante essa jornada, algumas pessoas descobrem
             que sua missão também é ajudar outras pessoas.
           </p>
-
 
           <p>
             Para elas, existe a Formação em Humanologia Brasileira,
@@ -186,12 +146,9 @@ function JornadaHumanologia() {
             aprender o método e aplicá-lo profissionalmente.
           </p>
 
-
         </div>
 
-
       </div>
-
     </section>
   );
 }

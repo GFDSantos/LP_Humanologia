@@ -23,18 +23,17 @@ function OndeJornada() {
         </p>
 
         <p className="onde-intro">
-          Quando isso acontece, mudanças começam
-          a aparecer naturalmente.
+          Quando isso acontece, a transformação começa a aparecer naturalmente em diferentes áreas <br />da vida.
         </p>
 
         <div className="cards-jornada">
 
           <div className="card-jornada">
-            ✓ Mais clareza para decidir.
+            ✓ Clareza para tomar decisões importantes.
           </div>
 
           <div className="card-jornada">
-            ✓ Relações mais leves.
+            ✓ Relações mais saudáveis e conscientes.
           </div>
 
           <div className="card-jornada">
@@ -42,11 +41,11 @@ function OndeJornada() {
           </div>
 
           <div className="card-jornada">
-            ✓ Mais confiança.
+            ✓ Confiança para seguir o próprio caminho.
           </div>
 
           <div className="card-jornada">
-            ✓ Mais energia.
+            ✓ Mais energia para viver o que faz sentido.
           </div>
 
           <div className="card-jornada">

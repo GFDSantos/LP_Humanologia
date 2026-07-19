@@ -14,8 +14,7 @@ function QuemSomos() {
         </span>
 
         <h2>
-          A Humanologia Brasileira nasce do encontro
-          entre experiência, escuta e propósito.
+          A Humanologia Brasileira nasceu da busca <br />por compreender a vida através das relações.
         </h2>
 
         <div className="quem-conteudo">
@@ -65,17 +64,17 @@ function QuemSomos() {
 
           <div className="item">
             <h3>500+</h3>
-            <span>Pessoas atendidas</span>
+            <span>Pessoas atendidas.</span>
           </div>
 
           <div className="item">
             <h3>12+</h3>
-            <span>Anos de experiência</span>
+            <span>Anos dedicados ao estudo e à prática. Melhor <br />do que apenas “anos de experiência”.</span>
           </div>
 
           <div className="item">
             <h3>100%</h3>
-            <span>Atendimento individual</span>
+            <span>Atendimento personalizado.</span>
           </div>
 
         </div>

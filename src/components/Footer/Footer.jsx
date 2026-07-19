@@ -25,14 +25,10 @@ function Footer() {
                     <a href="#depoimentos">Depoimentos</a>
                 </nav>
                 <div className="footer-linha"></div>
-                <p className="copyright">
-                    © {new Date().getFullYear()} Humanologia Brasileira.
-                    Todos os direitos reservados.
-                </p>
-                <p className="desenvolvido">
-                    Landing Page desenvolvida por
-                    <strong> GFDSantos</strong>
-                </p>
+                    <p className="copyright">
+                        © Humanologia Brasileira.
+                        Todos os direitos reservados.
+                    </p>
             </div>
         </footer>
     );
