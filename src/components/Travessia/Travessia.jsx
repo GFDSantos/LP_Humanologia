@@ -2,8 +2,9 @@ import "./Travessia.css";
 
 function Travessia() {
   return (
-    <section className="travessia">
-
+    <section id="travessia"
+             className="travessia"
+    >
       <div className="travessia-container">
 
         <span className="secao-tag">

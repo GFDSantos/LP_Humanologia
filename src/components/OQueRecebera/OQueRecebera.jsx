@@ -9,7 +9,10 @@ import {
 
 function OQueRecebera() {
   return (
-    <section className="recebera">
+    <section  id="recebera" 
+              className="recebera"
+    >
+
       <div className="recebera-container">
 
         <span className="secao-tag">

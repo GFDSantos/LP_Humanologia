@@ -2,7 +2,8 @@ import "./OndeJornada.css";
 
 function OndeJornada() {
   return (
-    <section className="onde-jornada">
+    <section id="ondeJornada"
+             className="onde-jornada">
 
       <div className="onde-container">
 

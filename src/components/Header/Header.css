@@ -5,31 +5,27 @@
     align-items:center;
     padding:14px 8%;
     background:#ffffff;
-    /* Linha dourada */
     border-bottom:1px solid #C8A14A;
     position:sticky;
     top:0;
-    z-index:999;
-    /* sombra extremamente suave */
+    z-index:9999;
     box-shadow:0 1px 8px rgba(0,0,0,.03);
 }
+
 .header::after{
     content:"";
     position:absolute;
     left:4%;
     right:4%;
     bottom:0;
-
     height:1px;
     background:#C8A14A;
 }
-/* ========================= */
-/* LOGO */
-/* ========================= */
 
 .logo{
     display:flex;
     align-items:center;
+    flex-shrink:0;
 }
 
 .logo-img{
@@ -44,13 +40,27 @@
 /* MENU */
 /* ========================= */
 
+.header nav{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
 .menu{
     display:flex;
+    align-items:center;
     gap:34px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.menu li{
     list-style:none;
 }
 
 .menu a{
+    display:inline-block;
     color:#222;
     text-decoration:none;
     font-size:.95rem;
@@ -59,7 +69,7 @@
 }
 
 .menu a:hover{
-    color:#7b1f1f;
+    color:#7B1F1F;
 }
 
 /* ========================= */
@@ -71,24 +81,27 @@
     justify-content:center;
     align-items:center;
     background:#075b2e;
-    color:#ffffff;
+    color:#fff;
     text-decoration:none;
     padding:11px 22px;
     border-radius:6px;
     font-size:.92rem;
     font-weight:600;
     transition:.3s;
+    flex-shrink:0;
 }
 
 .btn-header:hover{
     background:#054723;
 }
 
+
+
 /* ========================= */
 /* RESPONSIVO */
 /* ========================= */
 
-@media(max-width:960px){
+@media (max-width:960px){
 
 .header{
     flex-direction:column;
@@ -96,23 +109,28 @@
     padding:18px 8%;
 }
 
+.header nav{
+    width:100%;
+}
+
 .logo-img{
     width:170px;
 }
 
 .menu{
-    gap:18px;
-    flex-wrap:wrap;
     justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
 }
 
 .btn-header{
     width:100%;
     max-width:260px;
 }
+
 }
 
-@media(max-width:640px){
+@media (max-width:640px){
 
 .logo-img{
     width:145px;
@@ -120,7 +138,8 @@
 
 .menu{
     flex-direction:column;
-    gap:12px;
     align-items:center;
+    gap:12px;
 }
+
 }

@@ -70,23 +70,12 @@
     width:100%;
     box-shadow:0 8px 20px rgba(0,0,0,.06);
 }
-.jornada-humanologia .numero{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:42px;
-    height:42px;
-    margin:0 auto 12px;
-    border-radius:50%;
-    background:#8A6A45;
-    color:#fff;
-    font-weight:700;
-}
 
 .jornada-humanologia h3{
     color:#3C3026;
     font-size:1.28rem;
-    margin-bottom:10px;
+    margin:0 0 10px;
+    font-weight:600;
 }
 
 .jornada-humanologia p{

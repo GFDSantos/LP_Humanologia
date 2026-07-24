@@ -1,7 +1,7 @@
 .footer{
     background:#2C2C2C;
     color:#ffffff;
-    padding:70px 8% 38px;
+    padding:80px 8% 50px;
 }
 
 .footer-container{
@@ -27,7 +27,7 @@
 /* ========================= */
 
 .footer-frase{
-    color:#d8c5a0;
+    color:#D8C5A0;
     font-size:.95rem;
     font-style:italic;
     margin-bottom:30px;
@@ -45,9 +45,14 @@
     margin-bottom:28px;
 }
 
-.footer-contato p{
+.footer-link{
     color:#DDDDDD;
-    font-size:.88rem;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.footer-link:hover{
+    color:#D8C5A0;
 }
 
 /* ========================= */
@@ -65,12 +70,41 @@
 .footer-menu a{
     color:#FFFFFF;
     text-decoration:none;
-    font-size:.88rem;
-    transition:.3s;
+    font-size:.92rem;
+    transition:.35s;
+    position:relative;
+}
+
+.footer-menu a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:1px;
+    background:#C8A14A;
+    transition:.35s;
 }
 
 .footer-menu a:hover{
-    color:#C8A14A;
+    color:#D8C5A0;
+}
+
+.footer-menu a:hover::after{
+    width:100%;
+}
+
+/* ========================= */
+/* FRASE FINAL */
+/* ========================= */
+
+.footer-final{
+    color:#D8C5A0;
+    font-style:italic;
+    font-size:1rem;
+    line-height:1.6;
+    margin:34px auto 30px;
+    max-width:700px;
 }
 
 /* ========================= */
@@ -91,20 +125,6 @@
 .copyright{
     color:#BDBDBD;
     font-size:.82rem;
-    margin-bottom:10px;
-}
-
-/* ========================= */
-/* DESENVOLVIDO */
-/* ========================= */
-
-.desenvolvido{
-    color:#9A9A9A;
-    font-size:.76rem;
-}
-
-.desenvolvido strong{
-    color:#d7b98c;
 }
 
 /* ========================= */
@@ -114,7 +134,7 @@
 @media(max-width:768px){
 
 .footer{
-    padding:55px 8% 28px;
+    padding:60px 8% 30px;
 }
 
 .footer h2{
@@ -139,7 +159,12 @@
 }
 
 .footer-menu a{
-    font-size:.86rem;
+    font-size:.88rem;
+}
+
+.footer-final{
+    font-size:.92rem;
+    margin:28px auto 24px;
 }
 
 .footer-linha{
@@ -150,4 +175,5 @@
 .copyright{
     font-size:.78rem;
 }
+
 }

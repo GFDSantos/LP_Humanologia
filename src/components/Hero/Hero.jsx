@@ -11,16 +11,17 @@ function Hero() {
             Humanologia Brasileira
           </span>
           <h1>
-            Você nasceu para viver uma vida que faz sentido para quem você realmente é.
+            Sua vida tem uma origem, uma lógica, um porquê.
           </h1>
           <h2>
-            A Humanologia Brasileira ajuda você a compreender por que sua vida chegou até aqui e a reconstruir sua relação consigo mesmo, com sua família, com as pessoas e com a própria vida.
+            A Humanologia Brasileira ajuda você a compreender <br />a história que moldou a sua vida, identificar os padrões que influenciam suas escolhas e enxergar com mais clareza para tomar decisões mais maduras.
           </h2>
           <p>
-            <strong >Porque toda transformação começa quando encontramos o nosso lugar na vida.</strong>
+            <strong >Caminhamos com você na reorganização da sua vida e das suas relações, para que possa viver de forma mais coerente com quem você realmente é.
+          </strong>
           </p>
           <p className="hero-destaque">
-            Antes de indicar qualquer caminho, queremos compreender a sua história.
+            Toda transformação começa quando compreendemos a nossa história <br />e encontramos o nosso lugar na vida.
           </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfzP_KPKxGs4p1FMn7BTRcBNVsPc7vmJaBfRRtQBLMiYmsJHg/viewform"

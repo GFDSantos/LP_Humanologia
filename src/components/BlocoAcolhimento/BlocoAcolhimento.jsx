@@ -11,7 +11,9 @@ import {
 
 function BlocoAcolhimento() {
   return (
-    <section className="acolhimento">
+    <section id="acolhimento"
+             className="acolhimento"
+    >   
       <div className="container">
 
         <span className="secao-tag">
@@ -23,17 +25,17 @@ function BlocoAcolhimento() {
         </h2>
 
         <p className="texto-principal">
-          Toda história começa nas primeiras relações da vida.
-          É nesse primeiro ambiente <br />
-          que aprendemos a amar, confiar, sentir medo,
-          nos proteger e encontrar o nosso lugar.
+            Toda história começa nas primeiras relações da vida.
+            É nesse primeiro ambiente <br />
+            que aprendemos a amar, confiar, sentir medo,
+            nos proteger e encontrar o nosso lugar.
+          </p>
 
-          <br /><br />
-
-        <p className="texto-principal">
+          <p className="texto-principal">
             Com o passar dos anos,
             essa história continua sendo escrita.
             <br /><br />
+
             Nas relações.
             <br />
             Nas escolhas.
@@ -46,12 +48,11 @@ function BlocoAcolhimento() {
             <br />
             E na forma como vivemos.
           </p>
-          <br /><br />
 
-          É por isso que nenhuma história pode ser compreendida olhando apenas para
-          um único problema.
-        </p>
-
+          <p className="texto-principal">
+            É por isso que nenhuma história pode ser compreendida
+            olhando apenas para um único problema.
+          </p>
         <div className="cards">
 
           <div className="card">
