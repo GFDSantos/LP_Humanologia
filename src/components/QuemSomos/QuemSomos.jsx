@@ -69,7 +69,7 @@ function QuemSomos() {
 
           <div className="item">
             <h3>12+</h3>
-            <span>Anos dedicados ao estudo e à prática. Melhor <br />do que apenas “anos de experiência”.</span>
+            <span>Anos dedicados ao estudo e à prática. </span>
           </div>
 
           <div className="item">
