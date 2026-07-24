@@ -40,7 +40,6 @@
 .footer-contato{
     display:flex;
     justify-content:center;
-    gap:26px;
     flex-wrap:wrap;
     margin-bottom:28px;
 }
