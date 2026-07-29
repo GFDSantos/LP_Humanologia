@@ -14,7 +14,7 @@ function Hero() {
             Descubra o que realmente está influenciando as decisões que você toma.
           </h1>
           <h2>
-            A Primeira Leitura da Humanologia Brasileira ajuda você a compreender a lógica da sua história e enxergar com mais clareza o momento que está vivendo, <br />para tomar decisões mais alinhadas<br /> com quem você realmente é.
+            A Primeira Leitura ajuda você a compreender a lógica da sua história e enxergar com mais clareza o momento que está vivendo.
           </h2>
        
           <a
