@@ -1,6 +1,8 @@
 import "./Header.css";
 import logo from "../../assets/images/logo/nlogo_humanologia.jpeg";
 
+const FORM_URL = "https://forms.gle/qyHCVh6MDrp8rHbHA";
+
 function Header() {
   return (
     <header className="header">
@@ -17,12 +19,6 @@ function Header() {
         <ul className="menu">
 
           <li>
-            <a href="#quemSomos">
-              Quem Somos
-            </a>
-          </li>
-
-          <li>
             <a href="#comoFunciona">
               Como Funciona
             </a>
@@ -34,17 +30,11 @@ function Header() {
             </a>
           </li>
 
-          <li>
-            <a href="#primeiraLeitura">
-              Primeira Leitura
-            </a>
-          </li>
-
         </ul>
       </nav>
 
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfzP_KPKxGs4p1FMn7BTRcBNVsPc7vmJaBfRRtQBLMiYmsJHg/viewform"
+        href={FORM_URL}
         target="_blank"
         rel="noopener noreferrer"
         className="btn-header"

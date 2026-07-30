@@ -11,10 +11,10 @@ function Hero() {
             Humanologia Brasileira
           </span>
           <h1>
-            Descubra o que realmente está influenciando as decisões que você toma.
+            Descubra a vida que você veio viver.
           </h1>
           <h2>
-            A Primeira Leitura ajuda você a compreender a lógica da sua história e enxergar com mais clareza o momento que está vivendo.
+            A Primeira Leitura ajuda você a compreender o momento que está vivendo e o que está moldando sua história, para que possa tomar decisões com mais clareza e direção.
           </h2>
        
           <a

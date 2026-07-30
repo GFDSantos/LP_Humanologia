@@ -41,12 +41,6 @@ function Depoimentos() {
                 "Eu não sabia nem nomear o que sentia. Sabia só que estava errado. A leitura me deu palavras para o que eu vivia há anos.",
             nome: "Patrícia S.",
         },
-        {
-            assunto: "Conflito familiar antigo",
-            texto:
-                "Achei que o problema era minha família. Aprendi que tinha muito meu ali dentro. Isso foi difícil e libertador ao mesmo tempo.",
-            nome: "Fernando T.",
-        },
     ];
 
     return (

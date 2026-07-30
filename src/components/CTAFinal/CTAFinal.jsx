@@ -28,7 +28,7 @@ function CTAFinal() {
                     sobre o momento que está vivendo.
                 </p>
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfzP_KPKxGs4p1FMn7BTRcBNVsPc7vmJaBfRRtQBLMiYmsJHg/viewform"
+                    href="https://forms.gle/qyHCVh6MDrp8rHbHA"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
